@@ -3,7 +3,7 @@ import { GET_DOG_FACTS_START, GET_DOG_FACTS_SUCCESS, GET_DOG_FACTS_FAIL } from '
 const initialState = {
     facts: '',
     isFetching: false,
-    error: ''
+    error: null
 }
 
 export const reducer = (state = initialState, action) => {
